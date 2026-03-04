@@ -9,16 +9,22 @@ Objectives:
 Implement an epsilon-greedy strategy for balanced Exploration vs. Exploitation.
 Utilize a Neural Network to approximate Q-values (Function Approximation).
 Optimize the agent to achieve a consistent positive reward over 100+ episodes.
+
+
 🛠️ Tech Stack
 Language: Python 3.x
 RL Framework: Gymnasium (v29+)
 Deep Learning: TensorFlow / Keras (or PyTorch)
+
+
 🚀 Key Features
 Neural Q-Learning: Unlike basic Q-tables, this uses an ANN to predict the best possible actions.
 Performance Tracking: Generates graphs showing the "Reward per Episode" to visualize the agent's learning curve.
 Optimized Movement: Successfully handles the -10 penalty for illegal pick-ups/drop-offs and the -1 per-step penalty.
+
+
 📊 Results
-After training for [X] episodes, the agent achieves:
+After training for 20 episodes, the agent achieves:
 
 Average Reward: +7.2 to +9.7
 Success Rate: 98% to 100%
